@@ -1,0 +1,43 @@
+{
+  "name": "LMS-Store-Manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahadmak/LMS-Store-Manager.git"
+  },
+  "keywords": [],
+  "author": "Fahadmak <fahad@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fahadmak/LMS-Store-Manager/issues"
+  },
+  "homepage": "https://github.com/fahadmak/LMS-Store-Manager#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.15.0",
+    "react-hot-loader": "^4.7.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  }
+}
